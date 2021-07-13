@@ -2,7 +2,7 @@
 
 Linear Regression Model considering different aspect of ML in EDA, Feature Engineering, Hyperparameter Tuning, Serializing model for application
 
-	EDA:
+	EDA: BodyFat_Prediction.ipynb or .html
 			1.) pandas_profiling import ProfileReport - Get the Basic Idea of the data and different relation
 				Inference: Features and Body Fat are related Linearly. 
 
@@ -17,7 +17,7 @@ Linear Regression Model considering different aspect of ML in EDA, Feature Engin
 				
 			5.)New Feature from  different combination of the existing feature are tried but no good result during the hypothesis Testing.
 
-	Feature Engineering:
+	Feature Engineering: FeatureEngineearing_LinearRegressionRidge-VIF.ipynb or .html
 
 			1.) Top 4 Feature of T-Test [ 'Age', 'Chest', 'Density', 'Weight']. 
 			
@@ -25,7 +25,7 @@ Linear Regression Model considering different aspect of ML in EDA, Feature Engin
 			
 			3.) 'Age' and 'Chest' does not satisfy 95% confidence interval during the Population slope check. Still they are used. Depending only on the Density will cause model to have high variance.
 
-	Learning Model:
+	Learning Model: LearningAlgorithm_LinearRegression_Ridge-CrossVal.ipynb or .html
 
 			1.)Scalar Transformation Class with Standard Normalization. (class scalartransform)
 			2.)Ridge Regressor with an Adjustment for Non Zero Prediction.(class AdjRidgeRegres) 
@@ -38,7 +38,7 @@ Linear Regression Model considering different aspect of ML in EDA, Feature Engin
 
 Random Forest Regressor Hyperparameter Tuning
 
-
+	Model : LearningAlgorithm-RandomForest.ipynb or .html
 	1.)All the Feature are used for the model
 	2.)Hyper Parameter Tuning with RandomSearchCV and then GridSearchCV
 	3.)Performance on Test Set
